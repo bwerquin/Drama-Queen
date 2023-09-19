@@ -1,6 +1,7 @@
 import BaseDexie from "dexie";
-import { surveyUnitSchema, type SurveyUnitTable } from "./tables/surveyUnit";
+
 import { paradataSchema, type ParadataTable } from "./tables/paradata";
+import { surveyUnitSchema, type SurveyUnitTable } from "./tables/surveyUnit";
 
 type DexieTables = SurveyUnitTable & ParadataTable;
 

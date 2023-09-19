@@ -20,8 +20,11 @@
   },
   "devDependencies": {
     "@originjs/vite-plugin-federation": "^1.2.1",
+    "eslint": "^8.49.0",
+    "eslint-config-prettier": "^9.0.0",
     "kill-port": "^2.0.1",
     "lerna": "^6.5.1",
+    "prettier": "^3.0.3",
     "vite-tsconfig-paths": "^4.0.5"
   }
 }
